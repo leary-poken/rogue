@@ -15,4 +15,3 @@ The MCP wrapper (`mcp_agent_wrapper.py`) bridges the agent to the MCP protocol u
 ## __main__.py
 
 The `__main__.py` file provides a CLI entry point using Click. It accepts parameters for host, port, and transport type (streamable-http or sse), then starts the MCP server. The server exposes the agent at either `/mcp` (for streamable-http) or `/sse` (for Server-Sent Events), making it accessible to Rogue for evaluation.
-
